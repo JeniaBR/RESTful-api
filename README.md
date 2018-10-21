@@ -15,3 +15,8 @@ This is the first of several homework assignments you'll receive in this course.
 1. It should be a RESTful JSON API that listens on a port of your choice.
 
 2. When someone posts anything to the route /hello, you should return a welcome message, in JSON format. This message can be anything you want.
+
+
+##### API:
+* `/hello` route can get a query param `userName` and print greeting with their name.
+* if there is no `userName` param there will be genreic greeting.
